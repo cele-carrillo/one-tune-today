@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /_includes/
+Disallow: /_config.yml
+Disallow: /_layouts/

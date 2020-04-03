@@ -1,0 +1,11 @@
+@media only screen and (orientation: landscape) {
+  #section0{
+    background-image: url(/assets/img/big/lost_in_404_space.jpg);
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  #section0{
+    background-image: url(/assets/img/tablet/lost_in_404_space.jpg);
+  }
+}

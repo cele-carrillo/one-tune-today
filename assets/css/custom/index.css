@@ -1,0 +1,28 @@
+@media only screen and (orientation: landscape) {
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(/assets/img/big/dance1.jpg);
+  }
+  #section1{
+    background-image: url(/assets/img/big/dance2.jpg);
+  }
+  #section2{
+    background-image: url(/assets/img/big/dance3.jpg);
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  /* Defining each section background and styles on portrait orientation
+  * --------------------------------------- */
+  #section0{
+    background-image: url(/assets/img/tablet/dance1.jpg);
+  }
+  #section1{
+    background-image: url(/assets/img/tablet/dance2.jpg);
+  }
+  #section2{
+    background-image: url(/assets/img/tablet/dance3.jpg);
+  }
+}

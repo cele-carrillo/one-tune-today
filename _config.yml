@@ -1,0 +1,15 @@
+
+exclude: [".rvmrc", ".ruby-version", "README.md", "Rakefile", "Gemfile"]
+pygments: false
+markdown: kramdown
+extensions: [fenced_code_blocks]
+
+url: https://onetune.today
+baseurl: ""
+
+title : One Tune Today
+tagline: TODO please replace this description
+author :
+  name : argos83
+
+
