@@ -1,7 +1,4 @@
 @media only screen and (orientation: landscape) {
-
-  /* Defining each sectino background and styles
-  * --------------------------------------- */
   #section0{
     background-image: url(/assets/img/big/dance1.jpg);
   }
@@ -14,8 +11,6 @@
 }
 
 @media only screen and (orientation: portrait) {
-  /* Defining each section background and styles on portrait orientation
-  * --------------------------------------- */
   #section0{
     background-image: url(/assets/img/tablet/dance1.jpg);
   }

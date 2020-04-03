@@ -11,7 +11,7 @@ const songs = [
 const currentSongGracePeriod = 10 * 60 * 1000;
 const closeEtaCountdown = 60 * 1000;
 
-const mainDivDefaultContent = "<h1 class=\"heavy\">Ready for <br />today's <span class=\"pink\">tune?</span></h1>";
+const mainDivDefaultContent = "<h1 class='heavy'>Ready for <br />today's <span class='pink'>tune?</span></h1>";
 const secondaryDivDefaultContent = "Get ready to connect to your body and dance!";
 
 function setNextSongMainDivContent(htmlContent) {
@@ -30,12 +30,14 @@ function printFarETACountdown(songName, countdown) {
     const seconds = Math.floor((countdown % (1000 * 60)) / 1000);
     const timeExpression =  hours + "h " + minutes + "m " + seconds + "s";
     setNextSongMainDivContent(mainDivDefaultContent);
-    setNextSongSecondaryDivContent("We'll be dancing to <span class=\"aqua\">" + songName + "</span> in " + timeExpression);
+    setNextSongSecondaryDivContent(
+        "We'll be dancing to <span class='aqua'>" + songName + "</span> in <span class='no-brake'>" + timeExpression + "</span>"
+    );
 }
 
 function printCloseEtaCountDown(songName, countdown) {
     const seconds = Math.floor(countdown  / 1000);
-    setNextSongMainDivContent("<h1 class=\"heavy\">The party <br />starts in <span class=\"pink\">" + seconds + "!</span></h1>")
+    setNextSongMainDivContent("<h1 class='heavy'>The party <br />starts in <span class='pink'>" + seconds + "!</span></h1>");
     setNextSongSecondaryDivContent(secondaryDivDefaultContent);
 }
 
@@ -48,7 +50,7 @@ function printSongCountdown(songName, countdown) {
 }
 
 function printCurrentSong(songName) {
-    setNextSongMainDivContent("<h1 class=\"heavy\">We are dancing to <br /><span class=\"pink\">" + songName + "!</span></h1>");
+    setNextSongMainDivContent("<h1 class='heavy'>We are dancing to <br /><span class='pink'>" + songName + "!</span></h1>");
     setNextSongSecondaryDivContent("Forget your troubles and dance!");
 }
 
