@@ -4,8 +4,9 @@ const songs = [
     {time: '2020-04-02T09:00:00.0+00:00', name: 'A little less conversation'},
     {time: '2020-04-03T09:00:00.0+00:00', name: 'Express yourself'},
     {time: '2020-04-04T09:00:00.0+00:00', name: 'Life is Life'},
-    {time: '2020-04-05T09:00:00.0+00:00', name: 'Shake your booty'},
-    {time: '2020-04-06T09:00:00.0+00:00', name: "Livin' la vida loca"},
+    {time: '2020-04-05T10:00:00.0+00:00', name: 'Jailhouse Rock'},
+    {time: '2020-04-06T10:00:00.0+00:00', name: "Shake your booty"},
+    {time: '2020-04-07T10:00:00.0+00:00', name: "Livin' la vida loca"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
