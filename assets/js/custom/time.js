@@ -80,7 +80,7 @@ function calculateTimeFrom(utcTime) {
 }
 
 function getRealTime() {
-    $.getJSON("http://worldtimeapi.org/api/timezone/Australia/Melbourne", function (data) {
+    $.getJSON("https://worldtimeapi.org/api/timezone/Australia/Melbourne", function (data) {
         calculateTimeFrom(data.utc_datetime);
     });
 }
