@@ -7,7 +7,9 @@ const songs = [
     {time: '2020-04-05T10:00:00.0+00:00', name: 'Jailhouse Rock'},
     {time: '2020-04-06T10:00:00.0+00:00', name: "Shake your booty"},
     {time: '2020-04-07T10:00:00.0+00:00', name: "Livin' la vida loca"},
-    {time: '2020-04-08T10:00:00.0+00:00', name: "Thunderstruck/Ghostbusters mashup"},
+    {time: '2020-04-08T10:00:00.0+00:00', name: "Thunderstruck / Ghostbusters mashup"},
+    {time: '2020-04-09T10:00:00.0+00:00', name: "Danza Kuduro"},
+    {time: '2020-04-10T10:00:00.0+00:00', name: "Funky Town"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
