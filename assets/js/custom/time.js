@@ -10,6 +10,8 @@ const songs = [
     {time: '2020-04-08T10:00:00.0+00:00', name: "Thunderstruck / Ghostbusters mashup"},
     {time: '2020-04-09T10:00:00.0+00:00', name: "Danza Kuduro"},
     {time: '2020-04-10T10:00:00.0+00:00', name: "Funky Town"},
+    {time: '2020-04-11T10:00:00.0+00:00', name: "Boogie Wonderland"},
+    {time: '2020-04-12T10:00:00.0+00:00', name: "You're The First, The Last, My Everything"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
