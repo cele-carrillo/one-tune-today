@@ -12,6 +12,7 @@ const songs = [
     {time: '2020-04-10T10:00:00.0+00:00', name: "Funky Town"},
     {time: '2020-04-11T10:00:00.0+00:00', name: "Boogie Wonderland"},
     {time: '2020-04-12T10:00:00.0+00:00', name: "You're The First, The Last, My Everything"},
+    {time: '2020-04-13T10:00:00.0+00:00', name: "Free Tibet"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
