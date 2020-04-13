@@ -14,6 +14,11 @@ const songs = [
     {time: '2020-04-12T10:00:00.0+00:00', name: "You're The First, The Last, My Everything"},
     {time: '2020-04-13T10:00:00.0+00:00', name: "Free Tibet"},
     {time: '2020-04-14T10:00:00.0+00:00', name: "You Give Love A Bad Name"},
+    {time: '2020-04-15T10:00:00.0+00:00', name: "Lady Marmalade"},
+    {time: '2020-04-16T10:00:00.0+00:00', name: "Hot Stuff"},
+    {time: '2020-04-17T10:00:00.0+00:00', name: "Despacito"},
+    {time: '2020-04-18T10:00:00.0+00:00', name: "Let's Get Loud"},
+    {time: '2020-04-19T10:00:00.0+00:00', name: "September"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
