@@ -19,6 +19,17 @@ const songs = [
     {time: '2020-04-17T10:00:00.0+00:00', name: "Despacito"},
     {time: '2020-04-18T10:00:00.0+00:00', name: "Let's Get Loud"},
     {time: '2020-04-19T10:00:00.0+00:00', name: "September"},
+    {time: '2020-04-20T10:00:00.0+00:00', name: "Groove is in the heart"},
+    {time: '2020-04-21T10:00:00.0+00:00', name: "What is love"},
+    {time: '2020-04-22T10:00:00.0+00:00', name: "Real wild child"},
+    {time: '2020-04-23T10:00:00.0+00:00', name: "Brother Louie"},
+    {time: '2020-04-24T10:00:00.0+00:00', name: "Young hearts run free"},
+    {time: '2020-04-25T10:00:00.0+00:00', name: "New sensation"},
+    {time: '2020-04-26T10:00:00.0+00:00', name: "Beds are burning"},
+    {time: '2020-04-27T10:00:00.0+00:00', name: "Dancing with myself"},
+    {time: '2020-04-28T10:00:00.0+00:00', name: "Don't leave me this way"},
+    {time: '2020-04-29T10:00:00.0+00:00', name: "Lust for life"},
+    {time: '2020-04-30T10:00:00.0+00:00', name: "Play that funky music"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
