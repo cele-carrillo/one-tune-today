@@ -22,14 +22,15 @@ const songs = [
     {time: '2020-04-20T10:00:00.0+00:00', name: "Groove is in the heart"},
     {time: '2020-04-21T10:00:00.0+00:00', name: "What is love"},
     {time: '2020-04-22T10:00:00.0+00:00', name: "Real wild child"},
-    {time: '2020-04-23T10:00:00.0+00:00', name: "Brother Louie"},
-    {time: '2020-04-24T10:00:00.0+00:00', name: "Young hearts run free"},
-    {time: '2020-04-25T10:00:00.0+00:00', name: "New sensation"},
-    {time: '2020-04-26T10:00:00.0+00:00', name: "Beds are burning"},
-    {time: '2020-04-27T10:00:00.0+00:00', name: "Dancing with myself"},
-    {time: '2020-04-28T10:00:00.0+00:00', name: "Don't leave me this way"},
-    {time: '2020-04-29T10:00:00.0+00:00', name: "Lust for life"},
-    {time: '2020-04-30T10:00:00.0+00:00', name: "Play that funky music"},
+    {time: '2020-04-23T10:00:00.0+00:00', name: "Weapon of choice"},
+    {time: '2020-04-24T10:00:00.0+00:00', name: "Brother Louie"},
+    {time: '2020-04-25T10:00:00.0+00:00', name: "Young hearts run free"},
+    {time: '2020-04-26T10:00:00.0+00:00', name: "New sensation"},
+    {time: '2020-04-27T10:00:00.0+00:00', name: "Beds are burning"},
+    {time: '2020-04-28T10:00:00.0+00:00', name: "Dancing with myself"},
+    {time: '2020-04-29T10:00:00.0+00:00', name: "Don't leave me this way"},
+    {time: '2020-04-30T10:00:00.0+00:00', name: "Lust for life"},
+    {time: '2020-05-01T10:00:00.0+00:00', name: "Play that funky music"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
