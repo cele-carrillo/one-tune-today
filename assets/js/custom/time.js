@@ -32,6 +32,7 @@ const songs = [
     {time: '2020-04-30T10:00:00.0+00:00', name: "Don't leave me this way"},
     {time: '2020-05-01T10:00:00.0+00:00', name: "Lust for life"},
     {time: '2020-05-02T10:00:00.0+00:00', name: "Play that funky music"},
+    {time: '2020-05-03T10:00:00.0+00:00', name: "How do you do!"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
