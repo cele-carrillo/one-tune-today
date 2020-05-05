@@ -35,6 +35,16 @@ const songs = [
     {time: '2020-05-03T10:00:00.0+00:00', name: "Play that funky music"},
     {time: '2020-05-04T10:00:00.0+00:00', name: "How do you do!"},
     {time: '2020-05-05T10:00:00.0+00:00', name: "Footloose"},
+    {time: '2020-05-06T10:00:00.0+00:00', name: "The Power of Bhangra"},
+    {time: '2020-05-07T10:00:00.0+00:00', name: "Stayin' Alive"},
+    {time: '2020-05-08T10:00:00.0+00:00', name: "Becoming Insane"},
+    {time: '2020-05-09T10:00:00.0+00:00', name: "Saint of me"},
+    {time: '2020-05-10T10:00:00.0+00:00', name: "Mundian to Bach Ke"},
+	{time: '2020-05-11T10:00:00.0+00:00', name: "Jump in the line"},
+	{time: '2020-05-12T10:00:00.0+00:00', name: "Bella Ciao"},
+	{time: '2020-05-13T10:00:00.0+00:00', name: "Le Freak"},
+	{time: '2020-05-14T10:00:00.0+00:00', name: "Psycho Killer"},
+	{time: '2020-05-15T10:00:00.0+00:00', name: "Night Fever"},
 ];
 
 const currentSongGracePeriod = 10 * 60 * 1000;
